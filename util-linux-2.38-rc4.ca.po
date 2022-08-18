@@ -24600,7 +24600,7 @@ msgstr ""
 "q o Q o <interrupció>   Surt de more\n"
 "s                       Salta endavant k línies de text [1]\n"
 "f                       Salta endavant k pantalles de text [1]\n"
-"b o ctrl-B              Salta endarrera k pantalles de text [1]\n"
+"b o ctrl-B              Salta endarrere k pantalles de text [1]\n"
 "'                       Va a on va començar l'anterior recerca\n"
 "=                       Mostra el número de la línia actual\n"
 "/<expressió regular>    Cerca l'ocurrència k-enèssima de l'exp.reg. [1]\n"
@@ -24636,7 +24636,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"***Endarrera***\n"
+"***Endarrere***\n"
 "\n"
 
 #: text-utils/more.c:1716
@@ -24760,7 +24760,7 @@ msgstr "...s'està saltant endavant\n"
 
 #: text-utils/pg.c:368
 msgid "...skipping backward\n"
-msgstr "...s'està saltant endarrera\n"
+msgstr "...s'està saltant endarrere\n"
 
 #: text-utils/pg.c:384
 msgid "No next file"
