@@ -1,5 +1,6 @@
 # translation of util-linux.po to Catalan
 # Copyright © 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the util-linux package.
 # Antoni Bella Perez <bella5@teleline.es>, 2002, 2003.
 # Jordi Mallach <jordi@gnu.org>, 2004, 2005.
 # Josep Puigdemont <josep.puigdemont@gmail.com>, 2005
