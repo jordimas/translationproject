@@ -3,6 +3,7 @@
 # Antoni Bella Perez <bella5@teleline.es>, 2002, 2003.
 # Jordi Mallach <jordi@gnu.org>, 2004, 2005.
 # Josep Puigdemont <josep.puigdemont@gmail.com>, 2005
+# Jordi Mas i Hernàndez <jmas@softcatala.org>, 2022
 #
 # Permission is granted to freely copy and distribute
 # this file and modified versions, provided that this
@@ -11,11 +12,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: util-linux 2.13-pre3\n"
+"Project-Id-Version: util-linux 2.38-rc4\n"
 "Report-Msgid-Bugs-To: util-linux@vger.kernel.org\n"
 "POT-Creation-Date: 2022-03-16 18:08+0100\n"
-"PO-Revision-Date: 2005-09-17 13:40+0200\n"
-"Last-Translator: Josep Puigdemont <josep.puigdemont@gmail.com>\n"
+"PO-Revision-Date: 2022-08-18 13:40+0200\n"
+"Last-Translator: Jordi Mas i Hernàndez <jmas@softcatala.org>\n"
 "Language-Team: Catalan <ca@dodds.net>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
