@@ -15794,10 +15794,9 @@ msgid "failed to initialize output column"
 msgstr "no s'ha pogut inicialitzar la columna de sortida"
 
 #: misc-utils/whereis.c:201
-#, fuzzy, c-format
-#| msgid "whereis [ -sbmu ] [ -SBM dir ... -f ] name...\n"
-msgid " %s [options] [-BMS <dir>... -f] <name>\n"
-msgstr "whereis [ -sbmu ] [ -SBM directori ... -f ] nom...\n"
+#, c-format
+msgid  " %s [options] [-BMS <dir>... -f] <name>\n"
+msgstr " %s [opcions] [-BMS <dir>... -f] <nom>\n"
 
 #: misc-utils/whereis.c:204
 #, fuzzy
@@ -15806,52 +15805,42 @@ msgstr ""
 "Cerqueu els fitxers binari, d'origen i de pàgina manual per a una ordre."
 
 #: misc-utils/whereis.c:207
-#, fuzzy
-msgid " -b         search only for binaries\n"
-msgstr "-b cerca només per a binaris"
+msgid  "-b         search only for binaries\n"
+msgstr "-b         cerca només per a binaris\n"
 
 #: misc-utils/whereis.c:208
-#, fuzzy
-msgid " -B <dirs>  define binaries lookup path\n"
-msgstr "-B <dirs> defineix el camí de cerca dels binaris"
+msgid  " -B <dirs>  define binaries lookup path\n"
+msgstr " -B <dirs>  defineix el camí de cerca dels binaris\n"
 
 #: misc-utils/whereis.c:209
-#, fuzzy
-msgid " -m         search only for manuals and infos\n"
-msgstr "-m cerca només manuals i informació"
+msgid  " -m         search only for manuals and infos\n"
+msgstr " -m         cerca només manuals i informació"
 
 #: misc-utils/whereis.c:210
-#, fuzzy
-msgid " -M <dirs>  define man and info lookup path\n"
-msgstr "-M <dirs> defineix el camí de cerca de man i informació"
+msgid  " -M <dirs>  define man and info lookup path\n"
+msgstr " -M <dirs>  defineix el camí de cerca de man i d'informació\n"
 
 #: misc-utils/whereis.c:211
-#, fuzzy
-msgid " -s         search only for sources\n"
-msgstr "-s cerca només per fonts"
+msgid  " -s         search only for sources\n"
+msgstr " -s          cerca només per fonts\n"
 
 #: misc-utils/whereis.c:212
-#, fuzzy
-msgid " -S <dirs>  define sources lookup path\n"
-msgstr "-S <dirs> defineix el camí de cerca de fonts"
+msgid  " -S <dirs>  define sources lookup path\n"
+msgstr " -S <dirs>  defineix el camí de cerca per a les fonts\n"
 
 #: misc-utils/whereis.c:213
-#, fuzzy
-msgid " -f         terminate <dirs> argument list\n"
-msgstr "-f finalitza la llista d'arguments <dirs>"
+msgid  " -f         terminate <dirs> argument list\n"
+msgstr " -f         finalitza la llista d'arguments <dirs>"
 
 #: misc-utils/whereis.c:214
-#, fuzzy
-msgid " -u         search for unusual entries\n"
-msgstr "-u cerca entrades inusuals"
+msgid  " -u         search for unusual entries\n"
+msgstr " -u         cerca entrades inusuals\n"
 
 #: misc-utils/whereis.c:215
-#, fuzzy
-msgid " -l         output effective lookup paths\n"
-msgstr "-l camins de cerca efectius de sortida"
+msgid  " -l         output effective lookup paths\n"
+msgstr " -l         mostra els camins de cerca efectius\n"
 
 #: misc-utils/whereis.c:655
-#, fuzzy
 msgid "option -f is missing"
 msgstr "manca l'opció -f"
 
