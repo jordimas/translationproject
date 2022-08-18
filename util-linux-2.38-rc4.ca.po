@@ -24662,7 +24662,7 @@ msgstr ""
 ":n                      Ves al kth fitxer següent [1]\n"
 ":p                      Ves al kth fitxer anterior [1]\n"
 ":f                      Mostra el nom del fitxer actual i el número de línia\n"
-".                       Repeteix l'ordre anterior"
+".                       Repeteix l'ordre anterior\n"
 
 #: text-utils/more.c:1573
 #, c-format
