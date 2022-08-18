@@ -24015,7 +24015,6 @@ msgstr "write: %s no ha entrat a %s.\n"
 msgid "%s has messages disabled on %s"
 msgstr "write: %s té els missatges inhabilitats a %s\n"
 
-
 #: text-utils/col.c:174
 msgid "Filter out reverse line feeds from standard input.\n"
 msgstr "Filtra els salts de línia inversos des de l'entrada estàndard.\n"
@@ -24080,7 +24079,7 @@ msgid " -2, --half-lines        print all half-lines\n"
 msgstr "-2, --half-lines imprimeix totes les semilínies"
 
 #: text-utils/colrm.c:60
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid ""
 "\n"
 "Usage:\n"
@@ -24095,7 +24094,7 @@ msgid "Filter out the specified columns.\n"
 msgstr "Filtra les columnes especificades."
 
 #: text-utils/colrm.c:69
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid ""
 "%s reads from standard input and writes to standard output\n"
 "\n"
@@ -24117,7 +24116,7 @@ msgid "failed to parse column"
 msgstr "no s'ha pogut analitzar la columna"
 
 #: text-utils/column.c:246
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "undefined column name '%s'"
 msgstr "nom de columna no definit «%s»"
 
@@ -24152,7 +24151,7 @@ msgid "failed to parse --table-hide list"
 msgstr "no s'ha pogut analitzar la llista --table-hide"
 
 #: text-utils/column.c:463
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "line %zu: for JSON the name of the column %zu is required"
 msgstr "línia %zu: per a JSON es requereix el nom de la columna %zu"
 
@@ -24180,8 +24179,7 @@ msgstr "-n, --table-name <name> nom de taula per a la sortida JSON"
 #: text-utils/column.c:669
 #, fuzzy
 msgid " -O, --table-order <columns>      specify order of output columns\n"
-msgstr ""
-"-O, --table-order <columns> especifica l'ordre de les columnes de sortida"
+msgstr "-O, --table-order <columns> especifica l'ordre de les columnes de sortida"
 
 #: text-utils/column.c:670
 #, fuzzy
@@ -24195,12 +24193,8 @@ msgstr "-l, --table-columns-limit <num> nombre màxim de columnes d'entrada"
 
 #: text-utils/column.c:672
 #, fuzzy
-msgid ""
-" -E, --table-noextreme <columns>  don't count long text from the columns to "
-"column width\n"
-msgstr ""
-"-E, --table-noextreme <columns> no compta el text llarg de les columnes a "
-"l'amplada de la columna"
+msgid " -E, --table-noextreme <columns>  don't count long text from the columns to column width\n"
+msgstr "-E, --table-noextreme <columns> no compta el text llarg de les columnes a l'amplada de la columna"
 
 #: text-utils/column.c:673
 #, fuzzy
@@ -24220,25 +24214,17 @@ msgstr "-H, --table-hide <columns> no imprimeix les columnes"
 #: text-utils/column.c:676
 #, fuzzy
 msgid " -R, --table-right <columns>      right align text in these columns\n"
-msgstr ""
-"-R, --table-right <columns> alinear el text a la dreta en aquestes columnes"
+msgstr "-R, --table-right <columns> alinear el text a la dreta en aquestes columnes"
 
 #: text-utils/column.c:677
 #, fuzzy
-msgid ""
-" -T, --table-truncate <columns>   truncate text in the columns when "
-"necessary\n"
-msgstr ""
-"-T, --table-truncate <columns> trunca el text a les columnes quan sigui "
-"necessari"
+msgid " -T, --table-truncate <columns>   truncate text in the columns when necessary\n"
+msgstr "-T, --table-truncate <columns> trunca el text a les columnes quan sigui necessari"
 
 #: text-utils/column.c:678
 #, fuzzy
-msgid ""
-" -W, --table-wrap <columns>       wrap text in the columns when necessary\n"
-msgstr ""
-"-W, --table-wrap <columns> ajusta el text a les columnes quan sigui "
-"necessari"
+msgid " -W, --table-wrap <columns>       wrap text in the columns when necessary\n"
+msgstr "-W, --table-wrap <columns> ajusta el text a les columnes quan sigui necessari"
 
 #: text-utils/column.c:679
 #, fuzzy
@@ -24253,40 +24239,28 @@ msgstr "-J, --json usa el format de sortida JSON per a la taula"
 
 #: text-utils/column.c:683
 #, fuzzy
-msgid ""
-" -r, --tree <column>              column to use tree-like output for the "
-"table\n"
-msgstr ""
-"-r, --tree <column> columna per a utilitzar la sortida com un arbre per a la"
-" taula"
+msgid " -r, --tree <column>              column to use tree-like output for the table\n"
+msgstr "-r, --tree <column> columna per a utilitzar la sortida com un arbre per a la taula"
 
 #: text-utils/column.c:684
 #, fuzzy
-msgid ""
-" -i, --tree-id <column>           line ID to specify child-parent relation\n"
-msgstr ""
-"-i, --tree-id <column> línia ID per especificar la relació fill-parent"
+msgid " -i, --tree-id <column>           line ID to specify child-parent relation\n"
+msgstr "-i, --tree-id <column> línia ID per especificar la relació fill-parent"
 
 #: text-utils/column.c:685
 #, fuzzy
-msgid ""
-" -p, --tree-parent <column>       parent to specify child-parent relation\n"
+msgid " -p, --tree-parent <column>       parent to specify child-parent relation\n"
 msgstr "-p, --tree-parent <column> pare per especificar la relació pare-fill"
 
 #: text-utils/column.c:688
 #, fuzzy
-msgid ""
-" -c, --output-width <width>       width of output in number of characters\n"
+msgid " -c, --output-width <width>       width of output in number of characters\n"
 msgstr "-c, --output-width <width> amplada de sortida en nombre de caràcters"
 
 #: text-utils/column.c:689
 #, fuzzy
-msgid ""
-" -o, --output-separator <string>  columns separator for table output "
-"(default is two spaces)\n"
-msgstr ""
-"-o, --output-separador <string> columnes separador per a la sortida de la "
-"taula (per defecte són dos espais)"
+msgid " -o, --output-separator <string>  columns separator for table output (default is two spaces)\n"
+msgstr "-o, --output-separador <string> columnes separador per a la sortida de la taula (per defecte són dos espais)"
 
 #: text-utils/column.c:690
 #, fuzzy
@@ -24327,8 +24301,7 @@ msgstr "no s'ha pogut usar el separador d'entrada"
 #: text-utils/column.c:849
 #, fuzzy
 msgid "options --tree-id and --tree-parent are required for tree formatting"
-msgstr ""
-"es requereixen les opcions --tree-id i --tree-parent per a formatar en arbre"
+msgstr "es requereixen les opcions --tree-id i --tree-parent per a formatar en arbre"
 
 #: text-utils/column.c:857
 #, fuzzy
@@ -24342,14 +24315,13 @@ msgstr "es requereix l'opció --table-columns per a --json"
 
 #: text-utils/hexdump.c:162 text-utils/more.c:238
 #, c-format
-msgid  " %s [options] <file>...\n"
+msgid " %s [options] <file>...\n"
 msgstr "%s [opcions] <fitxer>...\n"
 
 #: text-utils/hexdump.c:165
 #, fuzzy
 msgid "Display file contents in hexadecimal, decimal, octal, or ascii.\n"
-msgstr ""
-"Mostra el contingut del fitxer en hexadecimal, decimal, octal o ascii."
+msgstr "Mostra el contingut del fitxer en hexadecimal, decimal, octal o ascii."
 
 #: text-utils/hexdump.c:168
 #, fuzzy
@@ -24384,13 +24356,11 @@ msgstr "-x, --two-bytes-hex pantalla hexadecimal de dos bytes"
 #: text-utils/hexdump.c:174
 #, fuzzy
 msgid " -L, --color[=<mode>]      interpret color formatting specifiers\n"
-msgstr ""
-"-L, --color,=<mode>] interpreta els especificadors de format del color"
+msgstr "-L, --color,=<mode>] interpreta els especificadors de format del color"
 
 #: text-utils/hexdump.c:177
 #, fuzzy
-msgid ""
-" -e, --format <format>     format string to be used for displaying data\n"
+msgid " -e, --format <format>     format string to be used for displaying data\n"
 msgstr "-e, --format <format> cadena de format a usar per a mostrar dades"
 
 #: text-utils/hexdump.c:178
@@ -24424,25 +24394,25 @@ msgid "all input file arguments failed"
 msgstr "han fallat tots els arguments del fitxer d'entrada"
 
 #: text-utils/hexdump-parse.c:55
-#, c-format, fuzzy
+#, fuzzy, c-format
 #| msgid "hexdump: bad byte count for conversion character %s.\n"
 msgid "bad byte count for conversion character %s"
 msgstr "el nombre de bytes per al caràcter de conversió %s és incorrecte"
 
 #: text-utils/hexdump-parse.c:60
-#, c-format, fuzzy
+#, fuzzy, c-format
 #| msgid "hexdump: %%s requires a precision or a byte count.\n"
 msgid "%%s requires a precision or a byte count"
 msgstr "%%s requereix una precisió o un recompte de bytes"
 
 #: text-utils/hexdump-parse.c:65
-#, c-format, fuzzy
+#, fuzzy, c-format
 #| msgid "hexdump: bad format {%s}\n"
 msgid "bad format {%s}"
 msgstr "format incorrecte {%s}"
 
 #: text-utils/hexdump-parse.c:70
-#, c-format, fuzzy
+#, fuzzy, c-format
 #| msgid "hexdump: bad conversion character %%%s.\n"
 msgid "bad conversion character %%%s"
 msgstr "el caràcter de conversió %%%s és incorrecte"
@@ -24462,11 +24432,11 @@ msgid "A file perusal filter for CRT viewing."
 msgstr "Un filtre de lectura en detall de fitxer per a la visualització en CRT."
 
 #: text-utils/more.c:244
-msgid  " -d, --silent          display help instead of ringing bell"
+msgid " -d, --silent          display help instead of ringing bell"
 msgstr " -d, --silent          mostra l'ajuda en lloc de fer sonar la campana"
 
 #: text-utils/more.c:245
-msgid  " -f, --logical         count logical rather than screen lines"
+msgid " -f, --logical         count logical rather than screen lines"
 msgstr " -f, --lògical         compta línies lògiques en comptes de pantalla"
 
 #: text-utils/more.c:246
@@ -24474,15 +24444,15 @@ msgid " -l, --no-pause        suppress pause after form feed"
 msgstr "-l, --no-pause        suprimeix la pausa després del salt de pàgina"
 
 #: text-utils/more.c:247
-msgid  " -c, --print-over      do not scroll, display text and clean line ends"
+msgid " -c, --print-over      do not scroll, display text and clean line ends"
 msgstr " -c, --print-over      no desplacis, mostra text i neteja finals de línia"
 
 #: text-utils/more.c:248
-msgid  " -p, --clean-print     do not scroll, clean screen and display text"
+msgid " -p, --clean-print     do not scroll, clean screen and display text"
 msgstr " -p, --clean-print     no desplacis, neteja la pantalla i mostra text"
 
 #: text-utils/more.c:249
-msgid  " -e, --exit-on-eof     exit on end-of-file"
+msgid " -e, --exit-on-eof     exit on end-of-file"
 msgstr " -e, --exit-on-eof     surt al final del fitxer"
 
 #: text-utils/more.c:250
@@ -24490,23 +24460,23 @@ msgid " -s, --squeeze         squeeze multiple blank lines into one"
 msgstr "-s, --squeeze         comprimeix múltiples línies en blanc en una sola"
 
 #: text-utils/more.c:251
-msgid  " -u, --plain           suppress underlining and bold"
+msgid " -u, --plain           suppress underlining and bold"
 msgstr " -u, --plain           suprimeix el subratllat i la negreta"
 
 #: text-utils/more.c:252
-msgid  " -n, --lines <number>  the number of lines per screenful"
+msgid " -n, --lines <number>  the number of lines per screenful"
 msgstr " -n, --lines <number>  el nombre de línies per pantalla completa"
 
 #: text-utils/more.c:253
-msgid  " -<number>             same as --lines"
+msgid " -<number>             same as --lines"
 msgstr " -<number>             igual que --lines"
 
 #: text-utils/more.c:254
-msgid  " +<number>             display file beginning from line number"
+msgid " +<number>             display file beginning from line number"
 msgstr " +<number>             mostra el fitxer començant des del número de línia"
 
 #: text-utils/more.c:255
-msgid  " +/<pattern>           display file beginning from pattern match"
+msgid " +/<pattern>           display file beginning from pattern match"
 msgstr " +/<pattern>           mostra el fitxer començant des de la coincidència de patró"
 
 #: text-utils/more.c:358
@@ -24550,7 +24520,7 @@ msgid "(Next file: %s)"
 msgstr "(Fitxer següent: %s)"
 
 #: text-utils/more.c:737 text-utils/more.c:743
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "(END)"
 msgstr "(FINAL)"
 
@@ -24699,7 +24669,6 @@ msgid "[Not a file] line %d"
 msgstr "[No és un fitxer] línia %d"
 
 #: text-utils/more.c:1725
-#| msgid "Regular expression botch"
 msgid "No previous regular expression"
 msgstr "No hi ha cap expressió regular anterior"
 
@@ -24758,9 +24727,8 @@ msgstr ""
 "-------------------------------------------------------\n"
 
 #: text-utils/pg.c:231
-#, c-format, fuzzy
-#| msgid ""
-#| "%s: Usage: %s [-number] [-p string] [-cefnrs] [+line] [+/pattern/] [files]\n"
+#, fuzzy, c-format
+#| msgid "%s: Usage: %s [-number] [-p string] [-cefnrs] [+line] [+/pattern/] [files]\n"
 msgid " %s [options] [+line] [+/pattern/] [files]\n"
 msgstr "%s ]opcions] ]+línia] ]+/patró/] ]fitxers]"
 
@@ -24823,13 +24791,13 @@ msgid " +/pattern/   start at the line containing pattern\n"
 msgstr "+/patró/inici a la línia que conté el patró"
 
 #: text-utils/pg.c:258
-#, c-format, fuzzy
+#, fuzzy, c-format
 #| msgid "%s: option requires an argument -- %s\n"
 msgid "option requires an argument -- %s"
 msgstr "l'opció requereix un argument -- %s"
 
 #: text-utils/pg.c:264
-#, c-format, fuzzy
+#, fuzzy, c-format
 #| msgid "%s: illegal option -- %s\n"
 msgid "illegal option -- %s"
 msgstr "opció il·legal -- %s"
@@ -24851,19 +24819,19 @@ msgid "No previous file"
 msgstr "No hi ha cap fitxer anterior"
 
 #: text-utils/pg.c:887
-#, c-format, fuzzy
+#, fuzzy, c-format
 #| msgid "%s: Read error from %s file\n"
 msgid "Read error from %s file"
 msgstr "Error de lectura del fitxer %s"
 
 #: text-utils/pg.c:890
-#, c-format, fuzzy
+#, fuzzy, c-format
 #| msgid "%s: Unexpected EOF in %s file\n"
 msgid "Unexpected EOF in %s file"
 msgstr "EOF inesperat en el fitxer %s"
 
 #: text-utils/pg.c:892
-#, c-format, fuzzy
+#, fuzzy, c-format
 #| msgid "%s: Unknown error in %s file\n"
 msgid "Unknown error in %s file"
 msgstr "Error desconegut al fitxer %s"
@@ -24909,10 +24877,9 @@ msgid "(Next file: "
 msgstr "(Fitxer següent: "
 
 #: text-utils/pg.c:1540
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "%s %s Copyright (c) 2000-2001 Gunnar Ritter. All rights reserved.\n"
-msgstr ""
-"%s %s Copyright (c) 2000-2001 Gunnar Ritter. Tots els drets reservats."
+msgstr "%s %s Copyright (c) 2000-2001 Gunnar Ritter. Tots els drets reservats."
 
 #: text-utils/pg.c:1593 text-utils/pg.c:1666
 #, fuzzy
@@ -24920,7 +24887,7 @@ msgid "failed to parse number of lines per page"
 msgstr "no s'ha pogut analitzar el nombre de línies per pàgina"
 
 #: text-utils/rev.c:75
-#, c-format, fuzzy
+#, fuzzy, c-format
 #| msgid "Usage: %s [options] device ...\n"
 msgid "Usage: %s [options] [file ...]\n"
 msgstr "Ús: %s ]opcions] ]fitxer ...]"
@@ -24931,7 +24898,7 @@ msgid "Reverse lines characterwise.\n"
 msgstr "Inverteix les línies en sentit de caràcter."
 
 #: text-utils/ul.c:123
-#, c-format, fuzzy
+#, fuzzy, c-format
 #| msgid "Usage: %s [options] device ...\n"
 msgid " %s [options] [<file> ...]\n"
 msgstr "%s ]opcions] ]<file> ...]"
@@ -24948,12 +24915,11 @@ msgstr "-t, -T, --terminal TERMINAL substitueix la variable d'entorn TERM"
 
 #: text-utils/ul.c:130
 #, fuzzy
-msgid ""
-" -i, --indicated              underlining is indicated via a separate line\n"
+msgid " -i, --indicated              underlining is indicated via a separate line\n"
 msgstr "-i, --indicated subratllat s'indica mitjançant una línia separada"
 
 #: text-utils/ul.c:503
-#, c-format, fuzzy
+#, fuzzy, c-format
 #| msgid "Unknown escape sequence in input: %o, %o\n"
 msgid "unknown escape sequence in input: %o, %o"
 msgstr "seqüència d'escapada desconeguda a l'entrada: %o, %o"
@@ -24963,7 +24929,6 @@ msgid "trouble reading terminfo"
 msgstr "hi ha hagut un problema en llegir terminfo"
 
 #: text-utils/ul.c:622
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "terminal `%s' is not known, defaulting to `dumb'"
 msgstr "el terminal «%s» no és conegut, s'està predeterminant a «dumb»"
-
