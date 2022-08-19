@@ -414,10 +414,8 @@ msgid "%s (mounted)"
 msgstr "%s està muntat.\t "
 
 #: disk-utils/cfdisk.c:1364
-#, fuzzy
-#| msgid "Partition number"
 msgid "Partition name:"
-msgstr "Nombre de partició"
+msgstr "Nom de la partició:"
 
 #: disk-utils/cfdisk.c:1371
 #, fuzzy
@@ -426,10 +424,8 @@ msgid "Partition UUID:"
 msgstr "Partició (a-%c): "
 
 #: disk-utils/cfdisk.c:1390
-#, fuzzy
-#| msgid "Partition number"
 msgid "Partition type:"
-msgstr "Nombre de partició"
+msgstr "Tipus de partició:"
 
 #: disk-utils/cfdisk.c:1397
 #, fuzzy
@@ -7105,7 +7101,7 @@ msgstr "BSD/OS"
 
 #: include/pt-mbr-partnames.h:65
 msgid "IBM Thinkpad hibernation"
-msgstr "Hivernació d'IBM Thinkpad"
+msgstr "Hibernació d'IBM Thinkpad"
 
 #: include/pt-mbr-partnames.h:66
 msgid "FreeBSD"
@@ -7288,7 +7284,7 @@ msgstr "No hi ha cap sector lliure disponible\n"
 
 #: libfdisk/src/ask.c:534
 msgid "Partition number"
-msgstr "Nombre de partició"
+msgstr "Número de partició"
 
 #: libfdisk/src/ask.c:1031
 #, fuzzy, c-format
@@ -7894,10 +7890,8 @@ msgid "To create more partitions, first replace a primary with an extended parti
 msgstr "Primer heu de suprimir alguna partició i afegir-ne una d'estesa\n"
 
 #: libfdisk/src/dos.c:2012
-#, fuzzy
-#| msgid "Partition number"
 msgid "Partition type"
-msgstr "Nombre de partició"
+msgstr "Tipus de partició"
 
 #: libfdisk/src/dos.c:2016
 #, fuzzy, c-format
@@ -26175,7 +26169,7 @@ msgstr "argument -l erroni"
 #: text-utils/colcrt.c:82 text-utils/column.c:661
 #, c-format
 msgid " %s [options] [<file>...]\n"
-msgstr "%s [opcions] [<fitxer>...]\n"
+msgstr " %s [opcions] [<fitxer>...]\n"
 
 #: text-utils/colcrt.c:85
 #, fuzzy
@@ -26430,7 +26424,7 @@ msgstr "es requereix l'opció --table-columns per a --json"
 #: text-utils/hexdump.c:162 text-utils/more.c:238
 #, c-format
 msgid " %s [options] <file>...\n"
-msgstr "%s [opcions] <fitxer>...\n"
+msgstr " %s [opcions] <fitxer>...\n"
 
 #: text-utils/hexdump.c:165
 #, fuzzy
@@ -26551,11 +26545,11 @@ msgstr " -d, --silent          mostra l'ajuda en lloc de fer sonar la campana"
 
 #: text-utils/more.c:245
 msgid " -f, --logical         count logical rather than screen lines"
-msgstr " -f, --lògical         compta línies lògiques en comptes de pantalla"
+msgstr " -f, --logical         compta línies lògiques en comptes de pantalla"
 
 #: text-utils/more.c:246
 msgid " -l, --no-pause        suppress pause after form feed"
-msgstr "-l, --no-pause        suprimeix la pausa després del salt de pàgina"
+msgstr " -l, --no-pause        suprimeix la pausa després del salt de pàgina"
 
 #: text-utils/more.c:247
 msgid " -c, --print-over      do not scroll, display text and clean line ends"
@@ -26571,7 +26565,7 @@ msgstr " -e, --exit-on-eof     surt al final del fitxer"
 
 #: text-utils/more.c:250
 msgid " -s, --squeeze         squeeze multiple blank lines into one"
-msgstr "-s, --squeeze         comprimeix múltiples línies en blanc en una sola"
+msgstr " -s, --squeeze         comprimeix múltiples línies en blanc en una sola"
 
 #: text-utils/more.c:251
 msgid " -u, --plain           suppress underlining and bold"
@@ -26825,7 +26819,7 @@ msgstr ""
 "  l                       línia següent\n"
 "  $                       última pàgina\n"
 "  /regex/                 cerca endavant per l'expressió regular\n"
-"  ?regex? or ^regex^      cerca enrere per l'expressió regular\n"
+"  ?regex? o ^regex^       cerca enrere per l'expressió regular\n"
 "  . or ^L                 torna a dibuixar la pantalla\n"
 "  w o z                   estableix la mida de la pàgina i ves a la següent\n"
 "  s nomfitxer             desa el fitxer actual al nom de fitxer\n"
