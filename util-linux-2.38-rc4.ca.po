@@ -15814,7 +15814,7 @@ msgstr " -B <dirs>  defineix el camí de cerca dels binaris\n"
 
 #: misc-utils/whereis.c:209
 msgid  " -m         search only for manuals and infos\n"
-msgstr " -m         cerca només manuals i informació"
+msgstr " -m         cerca només manuals i informació\n"
 
 #: misc-utils/whereis.c:210
 msgid  " -M <dirs>  define man and info lookup path\n"
@@ -15830,7 +15830,7 @@ msgstr " -S <dirs>  defineix el camí de cerca per a les fonts\n"
 
 #: misc-utils/whereis.c:213
 msgid  " -f         terminate <dirs> argument list\n"
-msgstr " -f         finalitza la llista d'arguments <dirs>"
+msgstr " -f         finalitza la llista d'arguments <dirs>\n"
 
 #: misc-utils/whereis.c:214
 msgid  " -u         search for unusual entries\n"
